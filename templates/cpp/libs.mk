@@ -1,0 +1,1 @@
+LIB_FLAGS := $(shell sdl2-config --cflags --libs) -lSDL2_ttf -lSDL2_mixer -lmpg123 -lcurl -lportaudio -lGLEW -framework OpenGL -lsndfile
